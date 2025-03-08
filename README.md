@@ -30,4 +30,4 @@ This repository contains work samples designed to demonstrate technical skills a
 
 Each project is structured to showcase a mix of **data processing, automation, machine learning, and technical mentorship** skills. While the samples are simplified for clarity, they reflect real-world analytical workflows and best practices.
 
-For any questions or clarifications, feel free to reach out!
+For any questions or clarifications, feel free to reach out! Email: zachburke23@gmail.com
