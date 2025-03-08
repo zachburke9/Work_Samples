@@ -29,7 +29,7 @@ pip install -r requirements.txt
 Alternatively, install individual dependencies as needed:
 
 ```bash
-pip install pandas numpy scikit-learn smtplib email
+pip install pandas numpy scikit-learn
 ```
 
 Some code may require dataset placeholders. Ensure that relevant CSV files or database connections are set up where applicable.
