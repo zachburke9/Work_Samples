@@ -55,3 +55,7 @@ Some code may require dataset placeholders. Ensure that relevant CSV files or da
 Each project is structured to showcase a mix of **data processing, automation, machine learning, and technical mentorship** skills. While the samples are simplified for clarity, they reflect real-world analytical workflows and best practices.
 
 For any questions or clarifications, feel free to reach out!
+
+Email: zachburke23@gmail.com
+Linkedin: https://www.linkedin.com/in/zachary-burke-405135153/
+Phone Number: 352-874-4784
