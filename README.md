@@ -16,6 +16,7 @@ Each project is self-contained in a separate `.py` file. To run a specific proje
 python automated_reporting.py
 python historical_booking_predictions.py
 python mentorship_training.py
+python automated_email_alerts.py
 ```
 
 ### Dependencies
@@ -47,7 +48,10 @@ Some code may require dataset placeholders. Ensure that relevant CSV files or da
 - Includes training examples for junior analysts, covering data validation, SQL best practices, and structured coding techniques.
 - Provides fundamental exercises to reinforce best practices in data analytics and pipeline development.
 
+### 4. Automated Email Alerts (`automated_email_alerts.py`)
+- Integrates with anomaly detection from `automated_reporting.py` to send automated email alerts for significant deviations in data.
+- Uses Python's `smtplib` and `email` libraries to format and send notifications.
+
 Each project is structured to showcase a mix of **data processing, automation, machine learning, and technical mentorship** skills. While the samples are simplified for clarity, they reflect real-world analytical workflows and best practices.
 
 For any questions or clarifications, feel free to reach out!
-Email: zachburke23@gmail.com
