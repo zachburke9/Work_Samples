@@ -57,5 +57,7 @@ Each project is structured to showcase a mix of **data processing, automation, m
 For any questions or clarifications, feel free to reach out!
 
 Email: zachburke23@gmail.com
+
 Linkedin: https://www.linkedin.com/in/zachary-burke-405135153/
+
 Phone Number: 352-874-4784
