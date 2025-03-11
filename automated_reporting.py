@@ -1,27 +1,28 @@
 """
-### Project: Automated Reporting and Anomaly Detection
+Project: Automated Reporting and Anomaly Detection
 
-#### Description:
-This Python script automates the detection of significant deviations or anomalies in key metrics using rolling averages. It dynamically identifies anomalies based on statistical thresholds, providing clear and actionable output.
+Description:
+This Python script automates the detection of significant deviations or anomalies in key metrics using rolling averages. 
+It dynamically identifies anomalies based on statistical thresholds, providing clear and actionable output.
 
-The script demonstrates proficiency in converting analytical reporting processes, traditionally managed in SQL or workflow management tools (e.g., Alteryx, Apache Airflow, DBT), into Python, improving efficiency, readability, and maintainability.
+There are numerous methods, applications, and programming languages that can facilitate automated reporting tasks. 
+My expertise primarily includes relational databases such as Microsoft SQL Server (T-SQL), Oracle Database (PL/SQL), 
+and workflow management tools like Alteryx, Apache Airflow, and DBT. With this script, I demonstrate proficiency in 
+transitioning these reporting processes into Python, enhancing efficiency, readability, and maintainability.
 
-#### Dependencies:
+Key Features:
+- Rolling average calculation for anomaly detection
+- Configurable threshold for deviation sensitivity
+- Clear, actionable output for efficient decision-making
+
+Dependencies:
 - pandas
 - numpy
 
-Install dependencies using:
-```
+To install dependencies, run:
 pip install pandas numpy
-```
-
-#### Key Features:
-- Rolling average calculation for anomaly detection
-- Configurable threshold for deviation sensitivity
-- Simple, clear output for easy analysis and decision-making
-
-
 """
+
 
 import pandas as pd
 import numpy as np
