@@ -1,16 +1,26 @@
 """
-Project: Automated Reporting and Significant Deviations Detection
+### Project: Automated Reporting and Anomaly Detection
 
-Description:
-This script detects significant deviations in metric values using rolling averages
-and prints any detected anomalies.
+#### Description:
+This Python script automates the detection of significant deviations or anomalies in key metrics using rolling averages. It dynamically identifies anomalies based on statistical thresholds, providing clear and actionable output.
 
-Dependencies:
+The script demonstrates proficiency in converting analytical reporting processes, traditionally managed in SQL or workflow management tools (e.g., Alteryx, Apache Airflow, DBT), into Python, improving efficiency, readability, and maintainability.
+
+#### Dependencies:
 - pandas
 - numpy
 
-To install dependencies, run:
+Install dependencies using:
+```
 pip install pandas numpy
+```
+
+#### Key Features:
+- Rolling average calculation for anomaly detection
+- Configurable threshold for deviation sensitivity
+- Simple, clear output for easy analysis and decision-making
+
+
 """
 
 import pandas as pd
