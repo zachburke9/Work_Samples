@@ -6,21 +6,26 @@ This repository contains work samples designed to demonstrate technical skills a
 
 ```
 Work_Samples/
-├── CostConsolidator_ETL/        # Enterprise ETL solution
-├── Python_Analytics_Engineering/ # Python-based analytics projects
-└── Other_Work_Samples/          # Additional project examples
+├── SQL_ETL/                # Enterprise SQL ETL solutions
+├── Python_Projects/        # Analytics Engineering projects
+│   ├── automated_reporting.py
+│   ├── historical_booking_predictions.py
+│   ├── mentorship_training.py
+│   ├── automated_email_alerts.py
+│   └── requirements.txt    # Python dependencies
+└── Other_Work_Samples/     # Additional project examples
 ```
 
 ## Project Areas
 
-### 1. CostConsolidator ETL
+### 1. SQL ETL
 An end-to-end ETL solution that demonstrates:
 - Complex SQL transformations for cost data consolidation
 - Multiple cost items per service transaction handling
 - Alteryx workflow automation for system integration
 - Best practices in data warehouse operations
 
-### 2. Python Analytics Engineering
+### 2. Analytics Engineering
 Collection of Python projects showcasing:
 - Automated reporting and anomaly detection
 - ML-based booking predictions
@@ -37,26 +42,24 @@ For detailed information about each project area, please see their respective RE
 
 ## Running the Code
 
-Each project is self-contained in a separate `.py` file. To run a specific project, execute the corresponding Python script:
+All Python projects can be run from the Python_Projects directory:
 
 ```bash
+cd Python_Projects
+
+# Install dependencies first
+pip install -r requirements.txt
+
+# Run any project
 python automated_reporting.py
 python historical_booking_predictions.py
-python mentorship_training.py
-python automated_email_alerts.py
 ```
 
 ### Dependencies
-Ensure you have the required Python packages installed before running the scripts:
+All required Python packages are listed in requirements.txt:
 
 ```bash
-pip install -r Python_Analytics_Engineering/requirements.txt
-```
-
-Alternatively, install individual dependencies as needed:
-
-```bash
-pip install pandas numpy scikit-learn
+pip install -r requirements.txt
 ```
 
 Some code may require dataset placeholders. Ensure that relevant CSV files or database connections are set up where applicable.
