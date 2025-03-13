@@ -2,6 +2,33 @@
 
 This repository contains work samples designed to demonstrate technical skills across data analysis, automation, machine learning, and mentoring. All examples are stripped of any company-specific data to provide a general overview of capabilities while maintaining confidentiality.
 
+## Repository Structure
+
+```
+Work_Samples/
+├── CostConsolidator_ETL/        # Enterprise ETL solution
+├── Python_Analytics_Engineering/ # Python-based analytics projects
+└── Other_Work_Samples/          # Additional project examples
+```
+
+## Project Areas
+
+### 1. CostConsolidator ETL
+An end-to-end ETL solution that demonstrates:
+- Complex SQL transformations for cost data consolidation
+- Multiple cost items per service transaction handling
+- Alteryx workflow automation for system integration
+- Best practices in data warehouse operations
+
+### 2. Python Analytics Engineering
+Collection of Python projects showcasing:
+- Automated reporting and anomaly detection
+- ML-based booking predictions
+- Technical mentorship materials
+- Email automation systems
+
+For detailed information about each project area, please see their respective README files.
+
 ## About These Code Samples
 
 - Each project is contained in its own Python script for easy execution.
@@ -23,7 +50,7 @@ python automated_email_alerts.py
 Ensure you have the required Python packages installed before running the scripts:
 
 ```bash
-pip install -r requirements.txt
+pip install -r Python_Analytics_Engineering/requirements.txt
 ```
 
 Alternatively, install individual dependencies as needed:
