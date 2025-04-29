@@ -1,5 +1,7 @@
 # Work Samples
 
+This project is to help showcase my technical/leadership abilities, and give a glimpse into how my brain works. My e-mail is zachburke23@gmail.com, and I would really appreciate any feedback at all about this. Good or bad, it would mean a lot!
+
 This repository contains work samples designed to demonstrate technical skills across data analysis, automation, machine learning, and mentoring. All examples are stripped of any company-specific data to provide a general overview of capabilities while maintaining confidentiality.
 
 ## Repository Structure
