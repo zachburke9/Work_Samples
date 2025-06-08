@@ -54,6 +54,7 @@ pip install -r requirements.txt
 
 # Run any sample
 python automated_reporting.py
+```
 
 Some scripts expect mock CSVs or dummy database connections for illustration purposes.
 
