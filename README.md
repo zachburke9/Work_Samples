@@ -1,10 +1,16 @@
 # Work Samples
 
-This project is to help showcase my technical/leadership abilities, and give a glimpse into how my brain works. My e-mail is zachburke23@gmail.com, and I would really appreciate any feedback at all about this. Good or bad, it would mean a lot!
+Welcome! This repository is a curated collection of projects that reflect how I think, build, and lead through data. Whether it's engineering automation, mentoring teammates, or analyzing key business metrics, my goal is always to deliver thoughtful, sustainable solutions.
 
-This repository contains work samples designed to demonstrate technical skills across data analysis, automation, machine learning, and mentoring. All examples are stripped of any company-specific data to provide a general overview of capabilities while maintaining confidentiality.
+These examples have been stripped of all company-specific data but are rooted in real business use cases. I hope they offer a clear picture of my technical mindset and approach. Feedback is always welcome — good or bad.
 
-## Repository Structure
+📧 zachburke23@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/zachary-burke-405135153/)  
+📱 352-874-4784  
+
+---
+
+## 🔍 Repository Overview
 
 ```
 Work_Samples/
@@ -14,82 +20,65 @@ Work_Samples/
 │   ├── historical_booking_predictions.py
 │   ├── mentorship_training.py
 │   ├── automated_email_alerts.py
-│   └── requirements.txt    # Python dependencies
+│   └── requirements.txt
 └── Other_Work_Samples/     # Additional project examples
 ```
 
-## Project Areas
+---
+
+## 💡 Project Focus Areas
 
 ### 1. SQL ETL
-An end-to-end ETL solution that demonstrates:
-- Complex SQL transformations for cost data consolidation
-- Multiple cost items per service transaction handling
-- Alteryx workflow automation for system integration
-- Best practices in data warehouse operations
+End-to-end solutions demonstrating:
+- Advanced SQL transformation logic
+- Multi-source data consolidation
+- Alteryx workflow automation
+- Clean handoff between SQL and reporting layers
 
-### 2. Analytics Engineering
-Collection of Python projects showcasing:
-- Automated reporting and anomaly detection
-- ML-based booking predictions
-- Technical mentorship materials
-- Email automation systems
+### 2. Python Analytics Engineering
+Real-world examples of:
+- Automated reporting with anomaly detection
+- Machine learning for demand forecasting
+- Scalable email alerting systems
+- Mentorship tools for growing analysts
 
-For detailed information about each project area, please see their respective README files.
+Each script is designed to be easily understandable, modular, and reproducible.
 
-## About These Code Samples
+---
 
-- Each project is contained in its own Python script for easy execution.
-- These are **illustrative code samples**, not full production-ready implementations. They are meant to highlight methodology, problem-solving techniques, and technical expertise.
-- The provided scripts are structured for clarity and reproducibility, ensuring ease of understanding and modification.
-
-## Running the Code
-
-All Python projects can be run from the Python_Projects directory:
+## ⚙️ How to Run
 
 ```bash
 cd Python_Projects
-
-# Install dependencies first
 pip install -r requirements.txt
 
-# Run any project
+# Run any sample
 python automated_reporting.py
-python historical_booking_predictions.py
-```
 
-### Dependencies
-All required Python packages are listed in requirements.txt:
+Some scripts expect mock CSVs or dummy database connections for illustration purposes.
 
-```bash
-pip install -r requirements.txt
-```
+🔦 Highlights
 
-Some code may require dataset placeholders. Ensure that relevant CSV files or database connections are set up where applicable.
+📊 automated_reporting.py
+	•	Automates metric tracking with rolling averages and deviation analysis.
+	•	Useful for detecting anomalies across business KPIs.
 
-## Project Highlights
+📈 historical_booking_predictions.py
+	•	Trains a simple ML model to forecast bookings using historical data.
+	•	Includes feature engineering and model evaluation with scikit-learn.
 
-### 1. Automated Reporting & Anomaly Detection (`automated_reporting.py`)
-- Implements data processing, rolling averages, and statistical deviation detection to identify significant changes in business metrics.
-- Helps automate alerting for unusual patterns in data.
+🤝 mentorship_training.py
+	•	Contains examples and exercises used in mentoring junior analysts.
+	•	Covers SQL/data validation patterns and clean coding habits.
 
-### 2. Historical Booking Predictions (`historical_booking_predictions.py`)
-- Builds a predictive model to forecast booking trends using `scikit-learn` with feature engineering and model evaluation.
-- Uses machine learning techniques to analyze past booking behaviors and predict future demand.
+📬 automated_email_alerts.py
+	•	Sends formatted emails based on detected anomalies.
+	•	Designed for flexible integration with other scripts.
 
-### 3. Mentorship & Technical Leadership (`mentorship_training.py`)
-- Includes training examples for junior analysts, covering data validation, SQL best practices, and structured coding techniques.
-- Provides fundamental exercises to reinforce best practices in data analytics and pipeline development.
+⸻
 
-### 4. Automated Email Alerts (`automated_email_alerts.py`)
-- Integrates with anomaly detection from `automated_reporting.py` to send automated email alerts for significant deviations in data.
-- Uses Python's `smtplib` and `email` libraries to format and send notifications.
+🎯 Purpose
 
-Each project is structured to showcase a mix of **data processing, automation, machine learning, and technical mentorship** skills. While the samples are simplified for clarity, they reflect real-world analytical workflows and best practices.
+This repository isn’t about perfect code—it’s about showing how I approach problems, communicate structure, and support a data-driven team environment. It reflects a balance of hands-on skill and leadership potential.
 
-For any questions or clarifications, feel free to reach out!
-
-Email: zachburke23@gmail.com
-
-Linkedin: https://www.linkedin.com/in/zachary-burke-405135153/
-
-Phone Number: 352-874-4784
+If you’re reviewing this, thanks for taking the time. Feel free to reach out with questions, feedback, or conversation.
