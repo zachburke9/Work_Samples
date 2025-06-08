@@ -60,25 +60,25 @@ Some scripts expect mock CSVs or dummy database connections for illustration pur
 
 ## 🔦 Highlights
 
-📊 automated_reporting.py
-	•	Automates metric tracking with rolling averages and deviation analysis.
-	•	Useful for detecting anomalies across business KPIs.
+### 📊 `automated_reporting.py`
+- Automates metric tracking with rolling averages and deviation analysis.
+- Useful for detecting anomalies across business KPIs.
 
-📈 historical_booking_predictions.py
-	•	Trains a simple ML model to forecast bookings using historical data.
-	•	Includes feature engineering and model evaluation with scikit-learn.
+### 📈 `historical_booking_predictions.py`
+- Trains a simple ML model to forecast bookings using historical data.
+- Includes feature engineering and model evaluation with `scikit-learn`.
 
-🤝 mentorship_training.py
-	•	Contains examples and exercises used in mentoring junior analysts.
-	•	Covers SQL/data validation patterns and clean coding habits.
+### 🤝 `mentorship_training.py`
+- Contains examples and exercises used in mentoring junior analysts.
+- Covers SQL/data validation patterns and clean coding habits.
 
-📬 automated_email_alerts.py
-	•	Sends formatted emails based on detected anomalies.
-	•	Designed for flexible integration with other scripts.
+### 📬 `automated_email_alerts.py`
+- Sends formatted emails based on detected anomalies.
+- Designed for flexible integration with other scripts.
 
-⸻
+---
 
-🎯 Purpose
+## 🎯 Purpose
 
 This repository isn’t about perfect code—it’s about showing how I approach problems, communicate structure, and support a data-driven team environment. It reflects a balance of hands-on skill and leadership potential.
 
