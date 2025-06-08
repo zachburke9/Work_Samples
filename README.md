@@ -58,7 +58,7 @@ python automated_reporting.py
 
 Some scripts expect mock CSVs or dummy database connections for illustration purposes.
 
-🔦 Highlights
+## 🔦 Highlights
 
 📊 automated_reporting.py
 	•	Automates metric tracking with rolling averages and deviation analysis.
